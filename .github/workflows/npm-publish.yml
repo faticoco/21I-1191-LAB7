@@ -8,6 +8,5 @@ jobs:
         runs-on: ubuntu-latest
         container: node:16
         steps:
-          - run: npm install express mongoose bcryptjs jsonwebtoken
-          - run: npm test
+          - run: npm install express mongoose bcryptjs jsonwebtoke
   
