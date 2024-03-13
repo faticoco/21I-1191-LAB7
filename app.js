@@ -137,5 +137,4 @@ app.get("/tasks/sort/:sortBy", authenticateUser, (req, res) => {
     res.status(500).send("Error sorting tasks");
   }
 });
-
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
